@@ -1,0 +1,9 @@
+conda create -n tabular python=3.9
+source activate tabular
+pip install polars
+conda install -c conda-forge pandas
+pip install seaborn
+pip install plotnine
+conda install ipykernel
+pip install plotly
+conda install -c conda-forge pyarrow
